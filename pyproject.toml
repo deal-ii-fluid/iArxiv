@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "work"
+version = "0.1.0"
+description = ""
+authors = ["jiaqiwang969 <jiaqiwang969@gamil.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+requests = "^2.31.0"
+bs4 = "^0.0.1"
+lxml = "^4.9.3"
+panda = "^0.3.1"
+pandas = "^2.1.4"
+tqdm = "^4.66.1"
+aiohttp = "^3.9.1"
+aiofiles = "^23.2.1"
+feedparser = "^6.0.11"
+texsoup = "^0.3.1"
+chardet = "^5.2.0"
+colorlog = "^6.8.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,9 @@
+# .gitignore
+
+# Ignore directories
+/dataset/
+/dataset-bak/
+/dataset-x/
+/__pycache__/
+*/__pycache__/
+*/*/__pycache__/
